@@ -4,6 +4,7 @@ import { IProduct } from "../models"
 
 
 export function useProducts() {
+
   const [products, setProducts] = useState<IProduct[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
@@ -19,7 +20,7 @@ export function useProducts() {
 
       setLoading(true)
 
-      const response = await axios.get<IProduct[]>('https://fakestoreapi.com/products')
+      const response = await axios.get<IProduct[]>('https://fakestoreapi.com/products/')
       
       setProducts(response.data)
   
