@@ -3,7 +3,9 @@
 
 const Loader = () => {
   return ( 
-    <p className="text-centr text-6xl h-screen flex flex-col justify-center">Loading...</p>
+    <div id="loader-wrapper">
+  <div id="loader"></div>
+</div>
    );
 }
  
