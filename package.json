@@ -1,6 +1,7 @@
 {
-  "name": "https://alexgrigorenco.github.io/react-ts-learn/",
+  "name": "react-ts-learn",
   "version": "0.1.0",
+  "homepage": "https://alexgrigorenco.github.io/react-ts-learn/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
